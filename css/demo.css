@@ -1,0 +1,273 @@
+a:hover {
+	text-decoration: none;
+}
+
+.nav {
+	float:left;
+	}
+
+#nav ul {
+display:block;
+}
+
+#nav li {
+	display:inline;
+}
+
+#nav a {
+	
+	padding: 0px 20px;
+
+}
+
+#logo {
+	text-align:center;
+	display:block;
+
+}
+
+#logo a {
+	float:none;
+}
+
+#svglogo {
+	width: 100%;
+}
+#ContentWrapper {
+	
+}
+.padding {
+	padding-top:20px;
+}
+.center {
+	width:100%;
+	display:block;
+	margin:0px auto;
+}
+.navbar {
+
+	border-radius:0px;
+}
+
+
+/* Customer button section By Yunfei*/
+.btn {
+	border-radius:0px;
+	width:100px;
+}
+
+.btn-ghost-default {
+	color:#95a5a6;
+	background:none;
+	border:2px solid #95a5a6;
+}
+.btn-ghost-default:hover {
+	color:#fff;
+	background:#95a5a6;
+	border:2px solid #95a5a6;
+}
+
+.btn-ghost-primary {
+	color:#2c3e50;
+	background:none;
+	border:2px solid #2c3e50;
+}
+.btn-ghost-primary:hover {
+	color:#fff;
+	background:#2c3e50;
+	border:2px solid #2c3e50;
+}
+
+.btn-ghost-success {
+	color:#18bc9c;
+	background:none;
+	border:2px solid #18bc9c;
+}
+.btn-ghost-success:hover {
+	color:#fff;
+	background:#18bc9c;
+	border:2px solid #18bc9c;
+}
+
+.btn-ghost-info {
+	color:#3498db;
+	background:none;
+	border:2px solid #3498db;
+}
+.btn-ghost-info:hover {
+	color:#fff;
+	background:#3498db;
+	border:2px solid #3498db;
+}
+
+.btn-ghost-warning {
+	color:#f39c12;
+	background:none;
+	border:2px solid #f39c12;
+}
+.btn-ghost-warning:hover {
+	color:#fff;
+	background:#f39c12;
+	border:2px solid #f39c12;
+}
+
+
+.btn-ghost-danger {
+	color:#e74c3c;
+	background:none;
+	border:2px solid #e74c3c;
+}
+.btn-ghost-danger:hover {
+	color:#fff;
+	background:#e74c3c;
+	border:2px solid #e74c3c;
+}
+
+
+.divider-horizontal {
+	min-height: 1px;
+	background:#666;
+	margin:50px 0px;
+}
+
+.divider-vertical {
+	height: 50px;
+	background:#666;
+	margin:0px 10px;
+	max-width:1px;
+}
+
+.clear {
+	clear:both;
+}
+
+/*png button*/
+.btn1 {
+	display:inline-block;
+	margin-bottom: none;
+	white-space:nowrap;
+	}
+.default-btn a {
+	background:url('img/button/btn-default1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.default-btn a:hover {
+	background-position: 0 -45px;
+}
+.primary-btn a {
+	background:url('img/button/btn-primary1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.primary-btn a:hover {
+	background-position: 0 -45px;
+}
+.success-btn a {
+	background:url('img/button/btn-success1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.success-btn a:hover {
+	background-position: 0 -45px;
+}
+.info-btn a {
+	background:url('img/button/btn-info1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.info-btn a:hover {
+	background-position: 0 -45px;
+}
+.warning-btn a {
+	background:url('img/button/btn-warning1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.warning-btn a:hover {
+	background-position: 0 -45px;
+}
+.danger-btn a {
+	background:url('img/button/btn-danger1.png') no-repeat 0 0;
+	width:100px;
+	height:45px;
+	display:block;
+	text-indent: -9999px;
+}
+.danger-btn a:hover {
+	background-position: 0 -45px;
+}
+
+/* Ghost png button*/
+.default-ghost-btn a {
+	background:url('img/button/btn-ghost-default1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.default-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+.primary-ghost-btn a {
+	background:url('img/button/btn-ghost-primary1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.primary-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+.success-ghost-btn a {
+	background:url('img/button/btn-ghost-success1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.success-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+.info-ghost-btn a {
+	background:url('img/button/btn-ghost-info1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.info-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+.warning-ghost-btn a {
+	background:url('img/button/btn-ghost-warning1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.warning-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+.danger-ghost-btn a {
+	background:url('img/button/btn-ghost-danger1.png') no-repeat 0 0;
+	width:104px;
+	height:49px;
+	display:block;
+	text-indent: -9999px;
+}
+.danger-ghost-btn a:hover {
+background-position: 0 -49px;
+}
+
+/* SVG button*/

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/fav.png" type="image/png" />
+    <title>Button Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/jcanvas.min.js"></script>
+    <!--http://www.bootstrapcdn.com/#bootswatch_tab-->
+    <!--Bootstrap CDN_CSS  //maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css         -->
+    <!--Bootstrap CDN_JS   //maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css         -->
+    <!--Fontawesome CDN    //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css   -->
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Multiple Button Style Demo</a>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div id='contentwrapper'>
+        <div class='container'>
+        	<section id='cssbutton' class='row'>
+                <h3> CSS Flat Design Button </h3>
+        		<div class='cssbutton padding'>
+                    <button type="button" class="btn btn-default">Default</button>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+        		</div>
+                <div class='divider-horizontal'></div>
+                <h3> CSS Flat Design Ghost Button </h3>
+                <div class='cssbutton padding'>
+                    <button type="button" class="btn btn-ghost-default">Default</button>
+                    <button type="button" class="btn btn-ghost-primary">Primary</button>
+                    <button type="button" class="btn btn-ghost-success">Success</button>
+                    <button type="button" class="btn btn-ghost-info">Info</button>
+                    <button type="button" class="btn btn-ghost-warning">Warning</button>
+                    <button type="button" class="btn btn-ghost-danger">Danger</button>
+                </div>
+                <div class='divider-horizontal'></div>
+        	</section>
+
+        	<section id='pngbutton' class='row'>
+                <h3> PNG Flat Design Button </h3>
+                <div class='pngbutton padding'>
+                    <div class='btn1 default-btn'><a href='#'></a></div>
+                    <div class='btn1 primary-btn'><a href='#'></a></div>
+                    <div class='btn1 success-btn'><a href='#'></a></div>
+                    <div class='btn1 info-btn'><a href='#'></a></div>
+                    <div class='btn1 warning-btn'><a href='#'></a></div>
+                    <div class='btn1 danger-btn'><a href='#'></a></div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+                <h3> PNG Flat Design Ghost Button </h3>
+                <div class='pngbutton padding'>
+                    <div class='btn1 default-ghost-btn'><a href='#'></a></div>
+                    <div class='btn1 primary-ghost-btn'><a href='#'></a></div>
+                    <div class='btn1 success-ghost-btn'><a href='#'></a></div>
+                    <div class='btn1 info-ghost-btn'><a href='#'></a></div>
+                    <div class='btn1 warning-ghost-btn'><a href='#'></a></div>
+                    <div class='btn1 danger-ghost-btn'><a href='#'></a></div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+        	</section>
+        	<section id='svgbutton' class='row'>
+                <h3> SVG Flat Design Button </h3>
+                <div class='svgbutton padding'>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-default'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#95A5A6" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Default</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-primary'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#2c3e50" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Primary</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-success'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#18bc9c" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Success</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-info'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#3498db" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 37.5 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Info</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-warning'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#f39c12" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Warning</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-danger'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill="#e74c3c" width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#FFFFFF" font-family="'Lato-Regular'" font-size="15px">Danger</text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+                <h3> SVG Flat Design Ghost Button </h3>
+                <div class='svgbutton padding'>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-default-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#95A5A6' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#95A5A6" font-family="'Lato-Regular'" font-size="15px">Default</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-primary-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#2c3e50' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#2c3e50" font-family="'Lato-Regular'" font-size="15px">Primary</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-success-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#18bc9c' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#18bc9c" font-family="'Lato-Regular'" font-size="15px">Success</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-info-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#3498db' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 37.5 27.5679)" fill="#3498db" font-family="'Lato-Regular'" font-size="15px">Info</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-warning-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#f39c12' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25 27.5679)" fill="#f39c12" font-family="'Lato-Regular'" font-size="15px">Warning</text>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class='btn1'>
+                        <a href='#'>
+                            <svg id='svg-btn-danger-hover'version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 45" enable-background="new 0 0 100 45" xml:space="preserve" width='100px' height='45px'>
+                                <rect id='svg-rect' fill='none' stroke-width='4px' stroke='#e74c3c' width="100px" height="45px"/>
+                                <text id='svg-text' transform="matrix(1 0 0 1 25.2055 27.5679)" fill="#e74c3c" font-family="'Lato-Regular'" font-size="15px">Danger</text>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+        	</section>
+            <section id='canvasbutton' class='row'>
+                <h3> Canvas Flat Design Button </h3>
+                <div class='canvasbutton padding'>
+                    <div class='btn1'>
+                    <canvas id="canvas-default-btn" width="100" height="45"></canvas>
+                    <script>
+
+                        var canvas = document.getElementById('canvas-default-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#95A5A6';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Default', 25.2055, 27.5679);
+                        
+                    </script>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-primary-btn" width="100" height="45"></canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas-primary-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#2c3e50';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Primary', 25.2055, 27.5679);
+                        
+                    </script>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-success-btn" width="100" height="45"></canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas-success-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#18bc9c';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Success', 25.2055, 27.5679);
+                        
+                    </script>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-info-btn" width="100" height="45"></canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas-info-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#3498db';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Info', 37.5, 27.5679);
+                        
+                    </script>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-warning-btn" width="100" height="45"></canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas-warning-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#f39c12';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Warning', 25, 27.5679);
+                        
+                    </script>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-danger-btn" width="100" height="45"></canvas>
+                    <script>
+                        var canvas = document.getElementById('canvas-danger-btn');
+                        var context = canvas.getContext('2d');
+
+                        // do cool things with the context
+                        context.beginPath();
+                        context.rect(0, 0, 100, 45);
+                        context.fillStyle = '#e74c3c';
+                        context.fill();
+                        context.font = '15px Lato-Regular';
+                        context.fillStyle = '#FFFFFF';
+                        context.fillText('Danger', 25.2055, 27.5679);
+                        
+                    </script>
+                    </div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+                <h3> Canvas Flat Design Ghost Button </h3>
+                <div class='canvasbutton padding'>
+                    <div class='btn1'>
+                    <canvas id="canvas-default-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-primary-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-success-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-info-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-warning-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                    <div class='btn1'>
+                    <canvas id="canvas-danger-btn-hover" width="100" height="45"></canvas>
+                    </div>
+                </div>
+                <div class='divider-horizontal clear'></div>
+                <canvas id='canvas-test'></canvas>
+            </section>
+        </div>
+    </div>
+  </body>
+</html>
