@@ -20,19 +20,6 @@ display:block;
 
 }
 
-#logo {
-	text-align:center;
-	display:block;
-
-}
-
-#logo a {
-	float:none;
-}
-
-#svglogo {
-	width: 100%;
-}
 #ContentWrapper {
 	
 }
@@ -271,3 +258,7 @@ background-position: 0 -49px;
 }
 
 /* SVG button*/
+/* In the demo.js file */
+
+/* Canvas button*/
+/* In the demo.js file */
