@@ -10,3 +10,5 @@ Used jcanvas.min.js from http://calebevans.me/projects/jcanvas/
 This is just a study. Not used for cormertial.
 
 If you have any quesiton, please contact me via dylannnnlee@gmail.com
+
+Visit the Live Demo From http://demo-button.dutchnu.nl
