@@ -43,7 +43,7 @@ display:block;
 	width:100px;
 }
 
-.btn-ghost-default {
+/*.btn-ghost-default {
 	color:#95a5a6;
 	background:none;
 	border:2px solid #95a5a6;
@@ -108,7 +108,7 @@ display:block;
 	color:#fff;
 	background:#e74c3c;
 	border:2px solid #e74c3c;
-}
+}*/
 
 
 .divider-horizontal {
@@ -129,7 +129,7 @@ display:block;
 }
 
 /*png button*/
-.btn1 {
+.pngBtn,.pngGhostBtn,.svgBtn,.svgGhostBtn {
 	display:inline-block;
 	margin-bottom: none;
 	white-space:nowrap;
@@ -141,9 +141,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.default-btn a:hover {
+/*.default-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 .primary-btn a {
 	background:url('img/button/btn-primary1.png') no-repeat 0 0;
 	width:100px;
@@ -151,9 +151,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.primary-btn a:hover {
+/*.primary-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 .success-btn a {
 	background:url('img/button/btn-success1.png') no-repeat 0 0;
 	width:100px;
@@ -161,9 +161,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.success-btn a:hover {
+/*.success-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 .info-btn a {
 	background:url('img/button/btn-info1.png') no-repeat 0 0;
 	width:100px;
@@ -171,9 +171,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.info-btn a:hover {
+/*.info-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 .warning-btn a {
 	background:url('img/button/btn-warning1.png') no-repeat 0 0;
 	width:100px;
@@ -181,9 +181,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.warning-btn a:hover {
+/*.warning-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 .danger-btn a {
 	background:url('img/button/btn-danger1.png') no-repeat 0 0;
 	width:100px;
@@ -191,9 +191,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.danger-btn a:hover {
+/*.danger-btn a:hover {
 	background-position: 0 -45px;
-}
+}*/
 
 /* Ghost png button*/
 .default-ghost-btn a {
@@ -203,9 +203,9 @@ display:block;
 	display:block;
 	text-indent: -9999px;
 }
-.default-ghost-btn a:hover {
+/*.default-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 .primary-ghost-btn a {
 	background:url('img/button/btn-ghost-primary1.png') no-repeat 0 0;
 	width:104px;
@@ -213,9 +213,9 @@ background-position: 0 -49px;
 	display:block;
 	text-indent: -9999px;
 }
-.primary-ghost-btn a:hover {
+/*.primary-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 .success-ghost-btn a {
 	background:url('img/button/btn-ghost-success1.png') no-repeat 0 0;
 	width:104px;
@@ -223,9 +223,9 @@ background-position: 0 -49px;
 	display:block;
 	text-indent: -9999px;
 }
-.success-ghost-btn a:hover {
+/*.success-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 .info-ghost-btn a {
 	background:url('img/button/btn-ghost-info1.png') no-repeat 0 0;
 	width:104px;
@@ -233,9 +233,9 @@ background-position: 0 -49px;
 	display:block;
 	text-indent: -9999px;
 }
-.info-ghost-btn a:hover {
+/*.info-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 .warning-ghost-btn a {
 	background:url('img/button/btn-ghost-warning1.png') no-repeat 0 0;
 	width:104px;
@@ -243,9 +243,9 @@ background-position: 0 -49px;
 	display:block;
 	text-indent: -9999px;
 }
-.warning-ghost-btn a:hover {
+/*.warning-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 .danger-ghost-btn a {
 	background:url('img/button/btn-ghost-danger1.png') no-repeat 0 0;
 	width:104px;
@@ -253,9 +253,9 @@ background-position: 0 -49px;
 	display:block;
 	text-indent: -9999px;
 }
-.danger-ghost-btn a:hover {
+/*.danger-ghost-btn a:hover {
 background-position: 0 -49px;
-}
+}*/
 
 /* SVG button*/
 /* In the demo.js file */

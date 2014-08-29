@@ -1,5 +1,59 @@
 $(document).ready(function(){
 
+    //color Array
+    hoverColorIndex = ["#798d8f","#1a242f","#128f76","#217dbb","#c87f0a","#c9302c"];
+    colorIndex= ["#95A5A6","#2c3e50","#18bc9c","#3498db","#f39c12","#e74c3c"];
+    
+    // use jquery to style color
+    $(function(){
+
+      //CSS Flat Design Button
+      $(".cssbtn").each(function(index, element) {
+        $(this).mouseenter(function(e) {
+          $(this).css("background", hoverColorIndex[index] );
+          console.log("Index is "+ index + ". Hover color is " + hoverColorIndex[index]);
+        }).mouseleave(function(e){
+          $(this).css("background", colorIndex[index] );
+          console.log("Index is "+ index + ". Original color is " + colorIndex[index]);
+        });
+      });
+
+      //CSS Flat Design Ghost Button
+      $(".cssghostbtn").each(function(index, element) {
+
+        //Set color
+        $(element).css({'color':colorIndex[index], 'background':'none', 'border':'2px solid' });
+        //Add Actions
+        $(element).mouseenter(function(e) {
+          $(this).css({'background' : colorIndex[index], 'border-color' : colorIndex[index], 'color':'#fff'} );
+          console.log("Index is "+ index + ". Hover color is " + hoverColorIndex[index]);
+        }).mouseleave(function(e){
+          $(this).css({'background' : 'none' , 'border-color' : colorIndex[index], 'color': colorIndex[index]});
+          console.log("Index is "+ index + ". Original color is " + colorIndex[index]);
+        });
+      });
+
+      //PNG Flat Design Button
+      $(".pngBtnAnchor").each(function(index, element) {
+        $(element).mouseenter(function(e) {
+          $(this).css('background-position', '0 -45px');
+        }).mouseleave(function(e){
+          $(this).css('background-position', '0 0');
+        });
+      });
+
+      //PNG Flat Design Ghost Button
+      $(".pngGhostBtnAnchor").each(function(index, element) {
+        $(element).mouseenter(function(e) {
+          $(this).css('background-position', '0 -49px');
+        }).mouseleave(function(e){
+          $(this).css('background-position', '0 0');
+        });
+      });
+    //END
+    })
+
+
     //SVG Button
     $('#svg-btn-default').mouseenter(function(){
         $('#svg-rect',this).attr('fill','#798d8f');
@@ -36,7 +90,6 @@ $(document).ready(function(){
     }).mouseleave(function(){
         $('#svg-rect',this).attr('fill','#e74c3c');
     });
-
 
     //Ghost SVG Button
     $('#svg-btn-default-hover').mouseenter(function(){
